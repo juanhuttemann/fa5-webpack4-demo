@@ -4,4 +4,4 @@
 
 2. `npm run-script build`
 
-3. Inspect the resulting `dist/bundle.js`.
+3. Inspect the resulting `static/scripts/fontawesome-custom.js`.

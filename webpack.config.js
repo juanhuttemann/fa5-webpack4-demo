@@ -1,9 +1,9 @@
 const path = require('path')
 const UglifyWebpackPlugin = require('uglifyjs-webpack-plugin')
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./font-awesome/icons.js",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "static/scripts/"),
     filename: "fontawesome-custom.js",
   },
   optimization: {

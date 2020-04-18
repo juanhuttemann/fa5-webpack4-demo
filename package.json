@@ -1,14 +1,9 @@
 {
-  "name": "fa5-webpack4-demo",
+  "name": "font-awesome-custom-icons-generator",
   "version": "1.0.0",
-  "description": "Demonstrate Webpack 4 configuration with Font Awesome 5.1 and greater",
-  "repository": "https://github.com/juanhuttemann/fa5-webpack4-demo",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --progress --mode production"
   },
-  "author": "Mike Wilkerson <mwilkerson@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-brands-svg-icons": "^5.3.1",
