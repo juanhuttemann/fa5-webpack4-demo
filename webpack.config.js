@@ -1,20 +1,20 @@
 const path = require('path')
 const UglifyWebpackPlugin = require('uglifyjs-webpack-plugin')
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    path: path.resolve(__dirname, "dist"),
+    filename: "fontawesome-custom.js",
   },
   optimization: {
     minimizer: [
       new UglifyWebpackPlugin({
         uglifyOptions: {
           compress: {
-            collapse_vars: false
-          }
-        }
-      })
-    ]
-  }
-}
+            collapse_vars: false,
+          },
+        },
+      }),
+    ],
+  },
+};
